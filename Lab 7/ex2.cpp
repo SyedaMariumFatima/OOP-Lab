@@ -9,7 +9,7 @@ public:
     }
 };
 
-// Derived Class 1
+
 class Circle : public Shape {
 public:
     void draw() override {
@@ -17,7 +17,7 @@ public:
     }
 };
 
-// Derived Class 2
+
 class Rectangle : public Shape {
 public:
     void draw() override {
@@ -29,8 +29,8 @@ int main() {
     Shape* s1 = new Circle();
     Shape* s2 = new Rectangle();
 
-    s1->draw(); // Outputs: Drawing a circle
-    s2->draw(); // Outputs: Drawing a rectangle
+    s1->draw(); 
+    s2->draw(); 
 
     delete s1;
     delete s2;
